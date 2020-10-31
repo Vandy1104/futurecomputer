@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" >
+
+    <title>Frontend</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading" class="jumbotron rounded-pill text-dark mt-3">Frontend</h1>
+
+
+        <!--add a product-->
+        <form id="addProductForm" class="bg-dark py-5 px-5 mt-5 text-light col col-sm-12 col-md-12 col-lg-12">
+          <h1 class="text-light"> Add Course Form </h1>   <br><br>
+
+          <label class="mr-4" for="a-coursename"> Enter course name </label>
+          <input type="text" id="a-coursename" name="productName" class="">
+          <br><br>
+
+           <label class="mr-5" for="a-image_url"> Enter the image url <br> (Source: Google Drive preferred) </label>
+          <input type="text" class="ml-5" id="a-image_url" name="a-image_url " >
+          <br><br>
+
+          <label class="mr-4" for="a-description"> Enter description </label>
+          <input type="text" id="a-description" name="productName" class="">
+          <br><br>
+
+          <label class="mr-4" for="a-duration"> Enter duration </label>
+          <input type="text" id="a-duration" name="productName" class="">
+          <br><br>
+
+          <label class="mr-4" for="a-faculty"> Enter name of the faculty </label>
+          <input type="text" id="a-faculty" name="productName" class="">
+          <br><br>
+
+
+          <button id="addProduct" name="productButton" type="submit" class="btn btn-primary rounded-pill">Add product</button>
+        </form>
+
+
+        <!-- View Courses -->
+        <button id="viewProducts" type="button" class="my-5 btn btn-lg btn-dark mx-auto rounded-pill"> View all Courses </button>
+         <div id="productCards" class="row my-5 px-1 cards">
+         </div>
+
+    </div><!--container-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
