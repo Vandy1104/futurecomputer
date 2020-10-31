@@ -45,8 +45,7 @@ You can also check endpoints using Postman.
 
 **Endpoints**       | **Description**             |**Acceptable values**| **Method**|
 --------------------|-----------------------------|---------------------|-----------|
-|/allProductsFromDB | view all products/courses
-                                      from db     |                     | GET       |
+|/allProductsFromDB | view all products/courses   |                     | GET       |
 |/addProduct        | add a product/course in db  |                     | POST      |
 
 
